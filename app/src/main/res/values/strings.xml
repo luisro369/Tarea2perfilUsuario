@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Perfil</string>
+    <string name="text_view_nombreCompleto">Luis Roberto Romualdo Menjivar</string>
+    <string name="text_view_carrera">Ing. Informatica</string>
+    <string name="text_view_carnet">00005513@uca.edu.sv</string>
+    <string name="text_view_redesSociales">Lo puedes contactar en: </string>
+    <string name="text_view_facebook">Luis Romualdo</string>
+    <string name="text_view_github">Luisro369</string>
+    <string name="text_view_gmail">00005513@uca.edu.sv</string>
+    <string name="text_view_telefono">71509935</string>
+</resources>
