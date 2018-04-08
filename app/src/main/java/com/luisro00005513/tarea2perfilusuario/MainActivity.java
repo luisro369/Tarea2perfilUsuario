@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView nombre,carrera,face,github,correo,numero;
-    ImageView algo1,yo;
+    ImageView algo1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
