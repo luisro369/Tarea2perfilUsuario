@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView nombre,carrera,face,github,correo,numero;
-    ImageView algo1;
+    ImageView algo1,yo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         //------------------------------
         share.setAction(Intent.ACTION_SEND);
         share.setType("text/plain");
-        share.put
         share.putExtra(Intent.EXTRA_TEXT,"Nombre completo: "+ nombre.getText() + "\nCarrera: "+ carrera.getText() + "\nFacebook: " + face.getText() + "\nGitHub: " + github.getText() + "\nCorreo: " + correo.getText() + "\nTelefono: " + numero.getText());
         if(share.resolveActivity(getPackageManager()) != null){
             startActivity(share);
